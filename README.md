@@ -1,29 +1,28 @@
-## Live Preview
-Visit https://mikaelborg.github.io/movies-app/ for a live preview of this React App.
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Build/Launch App
+Visit https://mikaelborg.github.io/movies-app/ for a live preview of this React App.
 
-In the project directory, you can run:
+Alternatively, you can download the project following these commands:
+- **git clone git://github.com/mikaelborg/movies-app.git** - downloads the project from git
+- **npm install** - installs the packages locally to the node_modules directory
+- **npm start** - starts local server
 
-### `npm start`
+## Features:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The site is based on ReactJS application and contains the following features:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- **Movies List page**
+  - Navbar having search and filter by genre functionality. The search and filter functionality work together to return movies that satisfy both conditions.
+  - All movies from the JSON file provided are listed in this page.
+  - Redirection to movie details page via React Router when clicking on a particular movie.
+- **Movie detail**
+  - Show selected movie detail information.
+  - Back button to navigate to the previous page.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
-$ git clone git://github.com/mikaelborg/movies-app.git
+## Technoligies used
+- ReactJS
+- React Router
+- Scss
+- Redux
+- TypeScript
